@@ -1,0 +1,54 @@
+.list-item-container{
+    display: flex;
+    justify-content: flex-start;
+    place-items: center;
+}
+
+.list-item-container input{
+    margin-right: 30px;
+}
+
+.li-item-delete-btn{
+    display: flex;
+    justify-content: space-between;
+    flex: 100%;
+}
+
+.delete-btn-container{
+    cursor: pointer;
+}
+
+.delete-btn-container{
+    display: flex;
+    place-items: center;
+    margin-left: 20px;
+}
+
+.main-list-item-container hr{
+    width: 640px;
+    padding: 0;
+    margin-left: 20px;
+    border-top: rgb(20, 6, 54);
+}
+
+.animation-effect{
+    animation: shake 0.8s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: flex-start;
+    place-items: center;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
