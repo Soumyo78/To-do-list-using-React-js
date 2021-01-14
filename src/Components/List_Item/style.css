@@ -52,3 +52,21 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+@media screen and (max-width: 734px){
+    .main-list-item-container hr{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .main-list-item-container hr{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .main-list-item-container hr{
+        width: 250px;
+    }
+}

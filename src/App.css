@@ -89,3 +89,43 @@
 .clear-all-btn:hover{
   background-color: rgb(255, 64, 64);
 }
+
+
+@media screen and (max-width: 734px){
+  #input-field{
+    width: 400px;
+  }
+
+  .list-container{
+    width: 490px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  #input-field{
+    width: 300px;
+  }
+
+  .list-container{
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  #heading-text{
+    font-size: 25px;
+  }
+
+  #input-field{
+    width: 200px;
+    height: 18px;
+  }
+
+  .add-btn{
+    padding: 10px;
+  }
+
+  .list-container{
+    width: 290px;
+  }
+}
